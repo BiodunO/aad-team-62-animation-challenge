@@ -64,7 +64,7 @@ public class RecordAdapter extends RecyclerView.Adapter<RecordAdapter.RecordsVie
     public void onBindViewHolder(RecordsViewHolder holder, int position) {
 
         //Added 2 lines (Biodun)
-        animation = AnimationUtils.loadAnimation(context,R.anim.slidein);
+        animation = AnimationUtils.loadAnimation(context,R.anim.right_to_left);
         container.startAnimation(animation);
 
 
